@@ -1,11 +1,12 @@
+ORIG_PN="grilo-plugins"
+inherit gnome2
+
 NAME="grilo0.2-plugins"
-VERSION=0.2.0
+VERSION=0.2.5
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="Media discovery framework plugins"
 DESCRIPTION="Grilo is a framework for browsing and searching media content
 from various sources using a single API."
-ORIG_PN="grilo-plugins"
-inherit gnome2
 
-KEEP_LA_FILES="none"
+PATCH_URI="0.2.5-no-undefined.patch"
