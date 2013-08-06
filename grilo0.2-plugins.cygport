@@ -2,7 +2,7 @@ ORIG_PN="grilo-plugins"
 inherit gnome2
 
 NAME="grilo0.2-plugins"
-VERSION=0.2.5
+VERSION=0.2.8
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="Media discovery framework plugins"
