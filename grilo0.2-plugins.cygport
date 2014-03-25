@@ -2,11 +2,12 @@ ORIG_PN="grilo-plugins"
 inherit gnome2
 
 NAME="grilo0.2-plugins"
-VERSION=0.2.8
+VERSION=0.2.12
 RELEASE=1
 CATEGORY="Net"
 SUMMARY="Media discovery framework plugins"
 DESCRIPTION="Grilo is a framework for browsing and searching media content
 from various sources using a single API."
 
-PATCH_URI="0.2.5-no-undefined.patch"
+# causes segfault upon loading
+CYGCONF_ARGS="--disable-dmap"
