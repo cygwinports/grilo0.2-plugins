@@ -3,7 +3,7 @@ inherit gnome2
 
 NAME="grilo0.2-plugins"
 VERSION=0.2.12
-RELEASE=2
+RELEASE=3
 CATEGORY="Net"
 SUMMARY="Media discovery framework plugins"
 DESCRIPTION="Grilo is a framework for browsing and searching media content
