@@ -9,5 +9,7 @@ SUMMARY="Media discovery framework plugins"
 DESCRIPTION="Grilo is a framework for browsing and searching media content
 from various sources using a single API."
 
+PATCH_URI="0.2.16-goa.patch"
+
 # dleyna: no dleyna-server, requires gssdp/gupnp
 CYGCONF_ARGS="--disable-dleyna"

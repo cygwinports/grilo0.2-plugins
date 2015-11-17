@@ -1,0 +1,14 @@
+Newer GOA (with Music support) is only required for the Lua plugin,
+which required lua-5.3 to which we haven't upgraded yet.
+
+--- origsrc/grilo-plugins-0.2.16/configure.ac	2015-09-23 16:58:15.000000000 -0500
++++ src/grilo-plugins-0.2.16/configure.ac	2015-11-16 23:56:05.417752300 -0600
+@@ -142,7 +142,7 @@ PKG_CHECK_MODULES(GTHREAD, gthread-2.0,
+ 
+ PKG_CHECK_MODULES(OAUTH, oauth, HAVE_OAUTH=yes, HAVE_OAUTH=no)
+ 
+-PKG_CHECK_MODULES(GOA, [goa-1.0 >= 3.17.91], HAVE_GOA=yes, HAVE_GOA=no)
++PKG_CHECK_MODULES(GOA, [goa-1.0 >= 3.7.1], HAVE_GOA=yes, HAVE_GOA=no)
+ 
+ PKG_CHECK_MODULES(TOTEM_PL_PARSER, totem-plparser >= 3.4.1, HAVE_TOTEM_PL_PARSER=yes, HAVE_TOTEM_PL_PARSER=no)
+ 
